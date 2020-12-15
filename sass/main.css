@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #4085e0;
+}
+
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40rem;
+  height: 32rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
+}
+
+.game .console {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.game .console .player-img img {
+  width: 14rem;
+}
+
+.game .console .computer-img img {
+  width: 14rem;
+}
+
+.game .result {
+  margin: 2rem 0rem;
+  color: black;
+  text-align: center;
+}
+
+.game .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.game button {
+  padding: 1rem;
+  width: 8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 23px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 3px 2px;
+          box-shadow: 0px 2px 3px 2px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.game button:hover {
+  background-color: turquoise;
+}
+/*# sourceMappingURL=main.css.map */
