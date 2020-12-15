@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="./sass/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+    <div class="game">
+        <div class="console">
+            <div class="player-img">
+                <h2 style="text-align: center;">YOU</h2>
+                <img id="player" alt="">
+
+            </div>
+            <div class="computer-img">
+                <h2 style="text-align: center;">Computer</h2>
+                <img id="computer" alt="">
+
+
+            </div>
+        </div>
+        <div class="result">
+            <h1>Result</h1>
+            <h2 id="result">Please Select</h2>
+        </div>
+        <div class="button">
+            <button onclick="rock()" class="Rock">Stone</button>
+            <button onclick="paper()" class="paper">Paper</button>
+            <button onclick="scissor()" class="scissor">Scissor</button>
+            <button onclick="reset()" class="clear">Reset</button>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
